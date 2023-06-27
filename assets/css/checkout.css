@@ -1,0 +1,81 @@
+
+/* Style for cards */
+.card {
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Style for form elements */
+form {
+  margin-bottom: 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color:darkgreen;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.footer{
+    background-color: black;
+    color:white
+      
+  }
+  .footer-logo{
+    width:80px;
+    height:80px;
+  }
+  
+  .list-unstyled :hover{
+    color:darkgreen;
+  }
+  .phones,.acc{
+
+    color:white;
+  }
+#icon{
+    color:white;
+}
+.nav-item{
+    color:black;
+
+}
+
+
+  

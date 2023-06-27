@@ -1,0 +1,173 @@
+
+ 
+ /* style.css */
+.cart{
+  color:black;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .product-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid ;
+    height: 400px; 
+  }
+  
+  .product-card img {
+    width: 40%;
+    height: auto;
+  }
+  
+  .product-card h3 {
+    margin-top: 10px;
+  }
+  
+  .product-card p {
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-to-cart-btn button {
+    margin-top: 10px;
+  }
+ 
+  .nav-buttons{
+    margin-left: 20;
+}
+
+*{
+   margin:0;
+   padding: 1px;
+    box-sizing:border-box ;
+
+}
+body{
+  font-family:'Poppins',sans-seris;
+  background-color: #DCDCDC;
+}
+
+h1{
+font-size: 2.5rem;
+font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    }
+
+h3{
+        font-size: 1.5rem;
+        font-weight: 800;
+        }
+
+h4{
+            font-size: 1.2rem;
+            font-weight: 700;
+            }
+ h5{
+                font-size: 1rem;
+                font-weight: 400;
+                }
+
+.navbar-brand {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left:0%;
+    padding-left:10px;
+    padding-right:100px;
+    color: black;
+   
+}
+
+.navbar{
+    font-size:16px;
+   
+}
+
+.navbar-nav  .nav-item  .nav-link
+{
+    padding:10px;
+    transition: 0.4 ease;
+    color: black;
+
+}
+
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-link :hover,
+.navbar-nav  .navitem:hover  .nav-link.activate,
+.navbar i:hover{
+    color:darkgreen;
+  
+}
+.navbar-nav .nav-item:hover .fas {
+    color:darkgreen;
+    
+}
+.navbar li{
+    font-size: 1.2 rem;
+    margin-left: 8px;
+    padding:0 0.7px;
+    transition: -.4s ease;
+    font-weight:500;
+    cursor:pointer;
+
+}
+
+.home{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-position-x: 90px;
+    background-position-y: 80px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.filter-button {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: darkgreen;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid ;
+    height:600px;
+    
+  }
+  
+  .product-card img {
+    width:50px;
+    height:60px;
+   
+  }
+  
+  .product-card h3 {
+    margin-top: 10px;
+  }
+ 
+  .cart:hover{
+background-color: darkgreen;
+  }
+ 

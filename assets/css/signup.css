@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(101, 101, 101, 0.29);
+  }
+  
+
+  .footer{
+    background-color: black;
+    color:white
+      
+  }
+  .footer-logo{
+    width:80px;
+    height:80px;
+  }
+  
+  .list-unstyled :hover{
+    color:darkgreen;
+  }
+  .phones,.acc{
+
+    color:white;
+  }
+#icon{
+    color:white;
+}
+.nav-item{
+    color:black;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.card{
+  font-family: 'Poppins', sans-serif;
+  background-color:white;
+  box-shadow: 10px 10px 5px 12px black;
+  
+}
+.btn:hover{
+  background-color:darkgreen;
+}
